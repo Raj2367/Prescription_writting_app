@@ -1,0 +1,20 @@
+
+create table student
+(
+	id number(12),
+	password varchar2(12)
+);
+
+
+insert into student values(100,'raj');
+insert into student values(101,'baba');
+
+commit;
+
+create table ComplainBox
+(
+	subject varchar2(30),
+	block varchar2(15),
+	room varchar2(10),
+	problem	 varchar2(500)
+);
